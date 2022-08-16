@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>card hover</title>
+</head>
+
+<body class="py-[10px] bg-[#0e0020] active">
+    <div class=" alldev w-full flex flex-wrap justify-center content-center mb-4">
+        <div onmouseover="hover_div(1)" class="group w-[90%] h-[460px] bg-slate-200 overflow-hidden relative overlay after:absolute after:transition-all  after:duration-500 after:ease-in-out after:w-full after:h-full after:bg-no-repeat hover:after:h-full after:bg-[url(../img/1.jpg)] hover:after:bg-[position:0px_-20px] hover:before:bottom-[0%] mb-4">
+            <div class="w-full absolute top-[80%] z-40 text-center transition-all duration-500 ease-in-out group-hover:top-[50%]  group-hover:translate-y-[-50%]">
+                <h1 class="font-bold text-white text-[1.6em] mb-16 group-hover:mb-2 transition-all duration-500 ease-in-out">Mountain View</h1>
+                <div class="transition-all duration-150 ease-in-out invisible group-hover:visible">
+                    <p class="font-['Kaushan_Script',_cursive] text-white text-[1.2em] w-[70%] m-auto mb-4">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+                    <button class="text-[.9em] text-white p-[8px_18px] bg-black hover:bg-[#000000bb] focus:outline-1  focus:outline-offset-2 focus:outline-[yellow] focus:outline-dashed">View Trips</button>
+                </div>
+            </div>
+
+        </div>
+        <div onmouseover="hover_div(2)" class="group w-[90%] h-[460px] bg-slate-200 overflow-hidden relative overlay after:absolute after:transition-all  after:duration-500 after:ease-in-out after:w-full after:h-full after:bg-no-repeat hover:after:h-full after:bg-[url(../img/2.jpg)] hover:after:bg-[position:0px_-20px] hover:before:bottom-[0%] mb-4">
+            <div class="w-full absolute top-[80%] z-40 text-center transition-all duration-500 ease-in-out group-hover:top-[50%]  group-hover:translate-y-[-50%]">
+                <h1 class=" font-bold text-white text-[1.6em] mb-16 group-hover:mb-2 transition-all duration-500 ease-in-out">To The Beach</h1>
+                <div class="transition-all duration-150 ease-in-out invisible group-hover:visible">
+                    <p class="font-['Kaushan_Script',_cursive] text-white text-[1.2em] w-[70%] m-auto mb-4">Plan your next beach trip with these fabulous destinations</p>
+                    <button class="text-[.9em] text-white p-[8px_18px] bg-black hover:bg-[#000000bb] focus:outline-1  focus:outline-offset-2 focus:outline-[yellow] focus:outline-dashed">View Trips</button>
+                </div>
+            </div>
+        </div>
+        <div onmouseover="hover_div(3)" class="group w-[90%] h-[460px] bg-slate-200 overflow-hidden relative overlay after:absolute after:transition-all  after:duration-500 after:ease-in-out after:w-full after:h-full after:bg-no-repeat hover:after:h-full after:bg-[url(../img/3.jpg)] hover:after:bg-[position:0px_-20px] hover:before:bottom-[0%] mb-4">
+            <div class="w-full absolute top-[80%] z-40 text-center transition-all duration-500 ease-in-out group-hover:top-[50%]  group-hover:translate-y-[-50%]">
+                <h1 class="font-bold text-white text-[1.6em] mb-16 group-hover:mb-2 transition-all duration-500 ease-in-out">Desert Destinations</h1>
+                <div class="transition-all duration-150 ease-in-out invisible group-hover:visible">
+                    <p class="font-['Kaushan_Script',_cursive] text-white text-[1.2em] w-[70%] m-auto mb-4">It's the desert you've always dreamed of</p>
+                    <button class="text-[.9em] text-white p-[8px_18px] bg-black hover:bg-[#000000bb] focus:outline-1  focus:outline-offset-2 focus:outline-[yellow] focus:outline-dashed">View Trips</button>
+                </div>
+            </div>
+        </div>
+        <div onmouseover="hover_div(4)" class="group w-[90%] h-[460px] bg-slate-200 overflow-hidden relative overlay after:absolute after:transition-all  after:duration-500 after:ease-in-out after:w-full after:h-full after:bg-no-repeat hover:after:h-full after:bg-[url(../img/4.jpg)] hover:after:bg-[position:0px_-20px] hover:before:bottom-[0%] mb-4">
+            <div class="w-full absolute top-[80%] z-40 text-center transition-all duration-500 ease-in-out group-hover:top-[50%]  group-hover:translate-y-[-50%]">
+                <h1 class="font-bold text-white text-[1.6em] mb-16 group-hover:mb-2 transition-all duration-500 ease-in-out">Explore The Galaxy</h1>
+                <div class="transition-all duration-150 ease-in-out invisible group-hover:visible">
+                    <p class="font-['Kaushan_Script',_cursive] text-white text-[1.2em] w-[70%] m-auto mb-4">Seriously, straight up, just blast off into outer space today</p>
+                    <button class="text-[.9em] text-white p-[8px_18px] bg-black hover:bg-[#000000bb] focus:outline-1  focus:outline-offset-2 focus:outline-[yellow] focus:outline-dashed">View Trips</button>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>
